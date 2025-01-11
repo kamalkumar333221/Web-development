@@ -1,0 +1,29 @@
+ this specificity of the selector is 0
+        *{
+            color: brown;
+        }
+
+        this specificity of the selector is 1
+        p{
+            color: brown;
+        }
+
+        this specificity of the selector is 10
+        .brown{
+            color: brown;
+        }
+
+        this specificity of the selector is 10
+        [value-x="a"]{
+            color: black;
+        }
+
+        this specificity of the selector is 100
+        #brown{
+            color: brown;
+        }
+
+        
+        
+        this specificity of the selector is 1000
+        style="color: aqua;" 
