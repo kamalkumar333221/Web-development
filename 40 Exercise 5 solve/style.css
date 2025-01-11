@@ -1,0 +1,85 @@
+:root {
+    --backcolor: rgb(141, 61, 246);
+    --color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 5px;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+header nav {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: var(--backcolor);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 45px;
+    color: var(--color);
+}
+
+.box {
+    background-color: green;
+    margin: 50px 0;
+}
+main{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.box1 {
+    background-color: pink;
+    width: 45%;
+    height: 60vh;
+    margin: 30px 25px;
+    display: inline-block;
+}
+
+.box2 {
+    background-color: rgb(32, 32, 231);
+    width: 45%;
+    height: 60vh;
+    margin: 30px 25px;
+    display: inline-block;
+}
+.box-3 {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.welcome{
+    border: 2px solid white;
+    padding: 25px;
+    width: 30vw;
+    border-radius: 55px;
+    text-align: center;
+    margin: auto;
+}
+footer {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--backcolor);
+    color: var(--color);
+}
