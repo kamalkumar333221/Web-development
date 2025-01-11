@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em, erm (font)</title>
+    <style>
+        div{
+            font-size: 18px;
+        }
+        div p{
+            /* 3 * font-size: 18px;  == 3em */
+            font-size: 3em;
+        }
+        html{
+            /* root selectore   rem */
+            font-size: 15px;
+        }
+        p{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div><p>font size was changed using em.</p></div>
+
+    <p>font size was changed using rem.</p>
+</body>
+</html>

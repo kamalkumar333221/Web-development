@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>px, vw, vh  </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .px{
+            width: 1205px;
+            border: 2px solid blue;
+            box-sizing: border-box;
+        }
+        .vw{
+            /* width: 1205px; ==  width: 100vw;  == full width */
+
+            width: 100vw;
+            border: 5px solid red;
+            box-sizing: border-box;
+        }
+        .vh{
+            /* height: 100vh; == full height; */
+
+            height: 100vh;
+            width: 50vw;
+            margin:10px auto;
+            border: 5px solid green;
+            box-sizing: border-box;
+        }
+        </style>
+</head>
+<body>
+    <p class="px">Hear is using px size</p>
+    <br>
+    <p class="vw">Hear is using vw size.</p>
+    <p class="vh">Hear is using vh size.</p>
+</body>
+</html>
