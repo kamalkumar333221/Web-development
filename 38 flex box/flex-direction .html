@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-direction</title>
+    <style>
+        .box {
+            height: 32px;
+            width: 32px;
+            background-color: rebeccapurple;
+            border: 2px solid black;
+            margin: 5px;
+
+        }
+        .contener1 {
+            display: flex;
+            width: 80vw;
+            height: 35vh;
+            border: 2px solid red;
+            flex-direction: column;
+           
+        }
+
+        .contener2 {
+            display: flex;
+            width: 80vw;
+            height: 35vh;
+            border: 2px solid red;
+            flex-direction: column-reverse;
+        }
+
+        .contener3 {
+            display: flex;
+            width: 80vw;
+            height: 35vh;
+            border: 2px solid red;
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="contener1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <div class="contener2">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <div class="contener3">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+</body>
+</html>
