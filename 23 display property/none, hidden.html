@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>none, hidden</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            border: 2px solid green;
+            display: inline-block;
+            padding: 45px;
+            margin: 34px;
+            width: 134px;
+        }
+
+        .box1 {
+            /* remove the .box1 class */
+            /* display: none; */
+            /* hidden the .box1 class but place will showing */
+            visibility: hidden;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box  box1">this is box</div>
+    <span class="box">this is span</span>
+</body>
+
+</html>
