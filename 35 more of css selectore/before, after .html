@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before</title>
+    <style>
+        .boxes::before{
+            content:"heyy this is using before";
+            color: aqua;
+        }
+        .boxes::after{
+            content:"heyy this is using agter";
+            color: green;
+        }
+       /* .box::selection{
+            background-color: rgb(128, 226, 16);
+            color: red; */
+        }
+        .box::first-letter{
+            color: rgb(236, 13, 13);
+           font-size: 40px;
+        }
+        input::placeholder{
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">first box</div>
+        <div class="box">second box</div>
+        <div class="box">third box</div>
+    </div>
+    <div>
+        <input type="text" class="of" placeholder="Enter your name">
+    </div>
+</body>
+</html>

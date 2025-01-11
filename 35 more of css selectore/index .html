@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more of css selectore</title>
+    <style>
+        .box:first-child {
+            background-color: aqua;
+        }
+
+        .box:first-line {
+            color: red;
+        }
+
+        /* .box:nth-last-child(even){
+    color: blue;
+} */
+
+        .boxes * {
+            border: 2px solid black;
+        }
+
+        [data-color="black"] {
+            padding-top: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="black" class="box">first box Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit.
+            Voluptates maiores minus, vero ducimus facilis suscipit?sit, amet consectetur adipisicing elit. Officiis aut
+            perferendis ex
+            mus numquam maiores ipsum.
+            assumenda, rem odit fuga sint.</div>
+        <div class="box">second box</div>
+        <div class="box">third box</div>
+    </div>
+</body>
+
+</html>
