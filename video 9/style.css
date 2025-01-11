@@ -1,0 +1,10 @@
+.red{  /* class */
+    color: blue;
+    /* its help for declare class then use dot ( . ) */
+}
+.yellow{    /* class */
+    background-color: thistle;
+}
+#first div{
+    /* its help for declare Id then use # ( # ) */
+}
