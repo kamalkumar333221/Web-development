@@ -1,0 +1,15 @@
+p:first-child{
+    background-color: yellow;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 3px;
+}
+p{
+    background-color: blue;
+    color: white;
+}
