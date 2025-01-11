@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text</title>
+    <style>
+        .align {
+            text-align: center;
+        }
+
+        #indent {
+            text-indent: 100px;
+        }
+
+        #transform {
+            text-transform: uppercase;
+        }
+
+        .decoration {
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: red;
+            text-decoration-thickness: 6px;
+        }
+
+        .overline {
+            text-decoration: overline;
+        }
+
+        div{
+            border: 3px solid green;
+            width: 145px;
+            /* text-overflow:ellipsis; */
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- text-align: center; -->
+    <p class="align">changing text-align: center;</p>
+
+    <!-- text-indent: 100px; -->
+    <p id="indent">changing text-indent: 100px;</p>
+
+    <!-- text-transform: uppercase; -->
+    <p id="transform">changing text-transform: uppercase;</p>
+
+    <!-- text-decoration: underline;   text-decoration-style:wavy;   text-decoration-color: red;   text-decoration-thickness: 6px; -->
+    <p class="decoration">changing text-decoration: underline;, text-decoration-style:wavy;, text-decoration-color:
+        red;, text-decoration-thickness: 6px;
+    </p>
+
+    <!-- text-decoration: overline; -->
+    <p class="overline">changing text-decoration: overline;</p>
+
+    <!-- word-break: break-all; -->
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nesciunt quos tempora quam maxime ipsum
+        iusto ad deserunt voluptas alias, quo incidunt nobis illo sit cupiditate vitae eveniet a, dignissimos id quidem,
+        eum ipsa asperiores necessitatibus. Non ut architecto consectetur sint corrupti fuga sit debitis?</div>
+</body>
+
+</html>
