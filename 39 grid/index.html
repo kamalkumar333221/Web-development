@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .boxs {
+            border: 2px solid rebeccapurple;
+            display: grid;
+            grid-template-columns: 100px 200px;
+            grid-template-rows: 70px 100px 130px;
+        }
+
+        .box {
+            width: 55px;
+            height: 55px;
+            border: 2px solid red;
+        }
+
+        .item-4 {
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+
+        .item-5 {
+            grid-row: 2/3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxs">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box item-4">4</div>
+        <div class="box item-5">5</div>
+    </div>
+</body>
+
+</html>

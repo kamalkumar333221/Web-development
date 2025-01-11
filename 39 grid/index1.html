@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nab bar</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .boxes {
+            border: 2px solid red;
+            box-sizing: border-box;
+             display: grid;
+             grid-template-areas: "nav nav nav"
+                                  "side content main"
+                                  "footer footer footer";
+        }
+        .box {
+            border: 2px solid blue;
+            height: 55px;
+        }
+        .item-1{
+            grid-area: nav;
+            background-color: aqua;
+        }
+        .item-2{
+            grid-area: side;
+            background-color: rebeccapurple;
+        }
+        .item-3{
+            grid-area: content;
+            background-color: yellow;
+        }
+        .item-4{
+            grid-area: main;
+            background-color: gray;
+        }
+        .item-5{
+            grid-area: footer;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box item-1">nav</div>
+        <div class="box item-2">side</div>
+        <div class="box item-3">content</div>
+        <div class="box item-4">main</div>
+        <div class="box item-5">footer</div>
+    </div>
+</body>
+
+</html>
