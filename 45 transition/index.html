@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contener{
+            width: 80vw;
+            height: 50vh;
+            background-color: aqua;
+        }
+        .box{
+            width:100px;
+            height: 100px;
+            background-color: red;
+            /* transition-property: transform background-color;
+            transition-duration: 3s;
+            transition-timing-function: cubic-bezier(0.23, 0.22, 0, 0.91);
+            transition-delay: 1s; */
+            transition: all 3s  ease-in-out 0.5s;
+        }
+        .tr{
+            transform: translateX(10vw) translateY(10vh);
+            /* background-color: rgb(170, 73, 73); */
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="box tr"></div>
+    </div>
+</body>
+</html>
