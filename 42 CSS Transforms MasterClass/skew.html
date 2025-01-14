@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skew</title>
+    <style>
+        .boxes {
+            height: 50vh;
+            background-color: bisque;
+            width: 50vw;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box1 {
+            height: 55px;
+            width: 55px;
+            background-color: aqua;
+            border: 3px solid green;
+            transform: skew(15deg);
+        }
+
+        .box2 {
+            height: 55px;
+            width: 55px;
+            background-color: aqua;
+            border: 3px solid green;
+            margin: 15px;
+            transform: skewY(15deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+
+    </div>
+</body>
+
+</html>
